@@ -1,0 +1,16 @@
+@host = http://localhost:5168
+
+### POST une nouvelle réclamation
+POST {{host}}/reclamations
+Content-Type: application/json
+
+{
+  "sujet": "Connexion lente",
+  "description": "L'application met du temps à charger."
+}
+
+###
+
+### GET toutes les réclamations
+GET {{host}}/reclamations
+Accept: application/json
