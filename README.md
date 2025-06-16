@@ -30,7 +30,7 @@ Il permet aux utilisateurs de créer et consulter des réclamations via des endp
 
 - [.NET SDK 7.0 ou supérieur](https://dotnet.microsoft.com/download)
 - Visual Studio 2022 ou plus récent
-- (Facultatif) SQLite ou SQL Server local
+-  SQL Server local
 
 ---
 
